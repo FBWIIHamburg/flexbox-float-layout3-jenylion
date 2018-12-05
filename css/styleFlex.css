@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+}
+.main{
+display: flex;
+flex-direction: column;
+background-color: black;
+height: auto;
+width: 100vw;
+
+}
+.header{
+    
+    background-color: lightsalmon;
+    flex:1 ;
+    min-height: 300px;
+}
+.middel{
+    flex:3;
+    background-color: lightgoldenrodyellow;
+    display: flex;
+    flex-direction: row;
+}
+.footer{
+    flex:1;
+    background-color: lightsalmon;
+    min-height: 300px;
+}
+.article{
+    flex:3;
+    background-color: lightblue;
+}
+.aside{
+    flex:1;
+    background-color: lightgoldenrodyellow;
+}
+.nav{
+    flex:1;
+    background-color: lightseagreen;
+}
